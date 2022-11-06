@@ -1,0 +1,7 @@
+<p>countries works!</p>
+<ul>
+    <li *ngFor="let country of countries">
+        
+        <a [routerLink]="['/countryDetails',country.name]">{{country.name}}</a>
+    </li>
+</ul>
